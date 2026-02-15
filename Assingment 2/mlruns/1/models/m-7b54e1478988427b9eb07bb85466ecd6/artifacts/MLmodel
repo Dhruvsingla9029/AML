@@ -1,0 +1,23 @@
+artifact_path: file:///c:/Users/ASUS/Desktop/AML/Assingment 2/mlruns/1/models/m-7b54e1478988427b9eb07bb85466ecd6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-7b54e1478988427b9eb07bb85466ecd6
+model_size_bytes: 581246
+model_uuid: m-7b54e1478988427b9eb07bb85466ecd6
+prompts: null
+run_id: 4c563ece22f54ffbae557d44c4fe2aed
+utc_time_created: '2026-02-15 19:22:00.782169'
