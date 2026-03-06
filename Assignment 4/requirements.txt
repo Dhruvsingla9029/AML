@@ -1,7 +1,0 @@
-flask
-scikit-learn
-numpy
-joblib
-requests
-pytest
-pytest-cov
